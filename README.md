@@ -4,8 +4,6 @@ Just a small project, showing how you could “bend” Spring in order to make a
 
 ## Installation
 
-Use the maven
-
 ```bash
 mvn clean install
 ```
