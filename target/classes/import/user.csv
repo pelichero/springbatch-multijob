@@ -1,6 +1,6 @@
 id,name,role_id,active
 1,Frodo,1,true
-1,Merry,1,true
-1,Pipping,1,true
-1,Sam,1,true
-1,Gandalf,2,true
+2,Merry,1,true
+3,Pipping,1,true
+4,Sam,1,true
+5,Gandalf,2,true

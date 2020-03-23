@@ -18,15 +18,13 @@ import static com.medium.springbatch.multijob.util.MultiJobAppHelper.allFieldsFo
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@TableName("configuracao_busca_produto")
-@CompositeIdentifier("<<CONFIGURACAO_BUSCA_PRODUTO>>")
+@TableName("role")
 public class RoleCSV
 		implements CSV {
 
     private String id;
-    private String produto_id;
-    private String configuracao_busca_id;
-    private String ativo;
+    private String name;
+    private String active;
 
     @Override
     public String sqlInsert() {

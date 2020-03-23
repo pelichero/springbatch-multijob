@@ -41,8 +41,8 @@ public class MultiJobApp
     }
 
     @PostConstruct
-    public void registerJobs() {
-        launcherComponent.registerJobs();
+    public void registerAndLaunchJobs() {
+        launcherComponent.registerAndLaunchJobs();
     }
 
 }
