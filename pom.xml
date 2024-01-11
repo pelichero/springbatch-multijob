@@ -21,10 +21,10 @@
 
 	<properties>
 		<maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
-		<maven-compiler-plugin.target>1.8</maven-compiler-plugin.target>
-		<maven-compiler-plugin.source>1.8</maven-compiler-plugin.source>
+		<maven-compiler-plugin.target>11</maven-compiler-plugin.target>
+		<maven-compiler-plugin.source>11</maven-compiler-plugin.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<jar.simple.name>multijobstructure</jar.simple.name>
 	</properties>
 
@@ -71,7 +71,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.16.20</version>
+			<version>1.18.30</version>
 		</dependency>
 
 	</dependencies>
